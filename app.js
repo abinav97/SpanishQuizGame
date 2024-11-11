@@ -196,4 +196,6 @@ function checkAnswer() {
 
 // Show the English meaning of the verb as a hint
 function showHint() {
-    const hint = document.getElementById("currentQuestion
+    const hint = document.getElementById("currentQuestion").dataset.translation;
+    document.getElementById("hint").innerText = `Hint: ${hint}`;
+}
