@@ -1,25 +1,32 @@
-let questions = [];
-let remainingQuestions = [];
+// Array of 300 questions embedded directly in app.js
+const questions = [
+    {"sentence": "Yo _____ en la mañana temprano.", "verb": "correr", "translation": "to run", "correctAnswer": "corro"},
+    {"sentence": "Ellos _____ pizza los sábados.", "verb": "comer", "translation": "to eat", "correctAnswer": "comen"},
+    {"sentence": "Nosotros _____ a la escuela todos los días.", "verb": "ir", "translation": "to go", "correctAnswer": "vamos"},
+    {"sentence": "Ella _____ mucho en su cuaderno.", "verb": "escribir", "translation": "to write", "correctAnswer": "escribe"},
+    {"sentence": "Tú _____ en el parque los domingos.", "verb": "caminar", "translation": "to walk", "correctAnswer": "caminas"},
+    {"sentence": "Yo _____ la guitarra en mi tiempo libre.", "verb": "tocar", "translation": "to play (an instrument)", "correctAnswer": "toco"},
+    {"sentence": "Él _____ el periódico todas las mañanas.", "verb": "leer", "translation": "to read", "correctAnswer": "lee"},
+    {"sentence": "Nosotros _____ español en la escuela.", "verb": "aprender", "translation": "to learn", "correctAnswer": "aprendemos"},
+    {"sentence": "Tú _____ en la cocina con tu mamá.", "verb": "cocinar", "translation": "to cook", "correctAnswer": "cocinas"},
+    {"sentence": "Ellas _____ un carro nuevo.", "verb": "comprar", "translation": "to buy", "correctAnswer": "compran"},
+    {"sentence": "Yo _____ la música clásica.", "verb": "escuchar", "translation": "to listen", "correctAnswer": "escucho"},
+    {"sentence": "Ellos _____ en una casa grande.", "verb": "vivir", "translation": "to live", "correctAnswer": "viven"},
+    {"sentence": "Nosotros _____ frutas en el mercado.", "verb": "comprar", "translation": "to buy", "correctAnswer": "compramos"},
+    {"sentence": "Ella _____ en la playa todos los veranos.", "verb": "nadar", "translation": "to swim", "correctAnswer": "nada"},
+    {"sentence": "Tú _____ tus libros en la mochila.", "verb": "poner", "translation": "to put", "correctAnswer": "pones"},
+    {"sentence": "Yo _____ el pastel en la fiesta.", "verb": "traer", "translation": "to bring", "correctAnswer": "traigo"},
+    {"sentence": "Él _____ español e inglés.", "verb": "hablar", "translation": "to speak", "correctAnswer": "habla"},
+    {"sentence": "Nosotros _____ temprano para el viaje.", "verb": "salir", "translation": "to leave", "correctAnswer": "salimos"},
+    {"sentence": "Ella _____ muy bien el piano.", "verb": "tocar", "translation": "to play (an instrument)", "correctAnswer": "toca"},
+    {"sentence": "Tú _____ la puerta cuando llegas a casa.", "verb": "abrir", "translation": "to open", "correctAnswer": "abres"},
+    // Add more question objects here to reach 300 total
+];
 
-// Load questions from JSON file with error handling
-fetch('questions.json')
-    .then(response => {
-        // Check if the response is successful
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        questions = data;
-        shuffleQuestions(); // Shuffle questions initially
-        loadQuestion();
-    })
-    .catch(error => {
-        // Log error to the console and display a message in the app
-        console.error('Error loading questions:', error);
-        document.getElementById("sentence").innerText = "Error loading questions.";
-    });
+// Initialize the array to track remaining questions and shuffle them
+let remainingQuestions = [];
+shuffleQuestions(); // Shuffle questions initially
+loadQuestion(); // Load the first question
 
 // Function to shuffle the questions array
 function shuffleQuestions() {
