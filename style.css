@@ -44,23 +44,30 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
     transition: background-color 0.3s;
 }
 
-button:hover {
+/* Submit and Hint Button Styles */
+button:not(#pass) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:not(#pass):hover {
     background-color: #45a049;
 }
 
-button:last-of-type {
+/* Pass Button Style */
+#pass {
     background-color: #FF5722;
+    color: white;
 }
 
-button:last-of-type:hover {
+#pass:hover {
     background-color: #e64a19;
 }
 
+/* Hint and Feedback Styles */
 #hint {
     color: #777;
     font-style: italic;
