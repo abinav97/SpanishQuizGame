@@ -1,15 +1,25 @@
 let questions = [];
 let remainingQuestions = [];
 
-// Load questions from JSON file
+// Load questions from JSON file with error handling
 fetch('questions.json')
-    .then(response => response.json())
+    .then(response => {
+        // Check if the response is successful
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         questions = data;
         shuffleQuestions(); // Shuffle questions initially
         loadQuestion();
     })
-    .catch(error => console.error('Error loading questions:', error));
+    .catch(error => {
+        // Log error to the console and display a message in the app
+        console.error('Error loading questions:', error);
+        document.getElementById("sentence").innerText = "Error loading questions.";
+    });
 
 // Function to shuffle the questions array
 function shuffleQuestions() {
