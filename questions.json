@@ -1,0 +1,50 @@
+[
+    {"sentence": "Yo _____ en la mañana temprano.", "verb": "correr", "translation": "to run", "correctAnswer": "corro"},
+    {"sentence": "Ellos _____ pizza los sábados.", "verb": "comer", "translation": "to eat", "correctAnswer": "comen"},
+    {"sentence": "Nosotros _____ a la escuela todos los días.", "verb": "ir", "translation": "to go", "correctAnswer": "vamos"},
+    {"sentence": "Ella _____ mucho en su cuaderno.", "verb": "escribir", "translation": "to write", "correctAnswer": "escribe"},
+    {"sentence": "Tú _____ en el parque los domingos.", "verb": "caminar", "translation": "to walk", "correctAnswer": "caminas"},
+    {"sentence": "Yo _____ la guitarra en mi tiempo libre.", "verb": "tocar", "translation": "to play (an instrument)", "correctAnswer": "toco"},
+    {"sentence": "Él _____ el periódico todas las mañanas.", "verb": "leer", "translation": "to read", "correctAnswer": "lee"},
+    {"sentence": "Nosotros _____ español en la escuela.", "verb": "aprender", "translation": "to learn", "correctAnswer": "aprendemos"},
+    {"sentence": "Tú _____ en la cocina con tu mamá.", "verb": "cocinar", "translation": "to cook", "correctAnswer": "cocinas"},
+    {"sentence": "Ellas _____ un carro nuevo.", "verb": "comprar", "translation": "to buy", "correctAnswer": "compran"},
+    
+    // Add more questions here to reach 300
+
+    {"sentence": "Yo _____ la música clásica.", "verb": "escuchar", "translation": "to listen", "correctAnswer": "escucho"},
+    {"sentence": "Ellos _____ en una casa grande.", "verb": "vivir", "translation": "to live", "correctAnswer": "viven"},
+    {"sentence": "Nosotros _____ frutas en el mercado.", "verb": "comprar", "translation": "to buy", "correctAnswer": "compramos"},
+    {"sentence": "Ella _____ en la playa todos los veranos.", "verb": "nadar", "translation": "to swim", "correctAnswer": "nada"},
+    {"sentence": "Tú _____ tus libros en la mochila.", "verb": "poner", "translation": "to put", "correctAnswer": "pones"},
+    {"sentence": "Yo _____ el pastel en la fiesta.", "verb": "traer", "translation": "to bring", "correctAnswer": "traigo"},
+    {"sentence": "Él _____ español e inglés.", "verb": "hablar", "translation": "to speak", "correctAnswer": "habla"},
+    {"sentence": "Nosotros _____ temprano para el viaje.", "verb": "salir", "translation": "to leave", "correctAnswer": "salimos"},
+    {"sentence": "Ella _____ muy bien el piano.", "verb": "tocar", "translation": "to play (an instrument)", "correctAnswer": "toca"},
+    {"sentence": "Tú _____ la puerta cuando llegas a casa.", "verb": "abrir", "translation": "to open", "correctAnswer": "abres"},
+
+    // Continue with a variety of verbs, pronouns, and sentence structures
+    // across regular and irregular verbs
+
+    {"sentence": "Ellos _____ temprano en la noche.", "verb": "acostarse", "translation": "to go to bed", "correctAnswer": "se acuestan"},
+    {"sentence": "Yo _____ una novela en el autobús.", "verb": "leer", "translation": "to read", "correctAnswer": "leo"},
+    {"sentence": "Ella _____ el piano cada tarde.", "verb": "practicar", "translation": "to practice", "correctAnswer": "practica"},
+    {"sentence": "Nosotros _____ en el restaurante esta noche.", "verb": "cenar", "translation": "to have dinner", "correctAnswer": "cenamos"},
+    {"sentence": "Tú _____ muy rápido cuando corres.", "verb": "correr", "translation": "to run", "correctAnswer": "corres"},
+    {"sentence": "Yo _____ en la piscina cuando hace calor.", "verb": "nadar", "translation": "to swim", "correctAnswer": "nado"},
+    {"sentence": "Ellos _____ ayuda a sus amigos.", "verb": "dar", "translation": "to give", "correctAnswer": "dan"},
+    {"sentence": "Él _____ su tarea todas las noches.", "verb": "hacer", "translation": "to do", "correctAnswer": "hace"},
+    {"sentence": "Nosotros _____ por el parque cada mañana.", "verb": "pasear", "translation": "to stroll", "correctAnswer": "paseamos"},
+    {"sentence": "Ella _____ su teléfono en la mesa.", "verb": "dejar", "translation": "to leave", "correctAnswer": "deja"},
+    {"sentence": "Tú _____ una carta para tus amigos.", "verb": "escribir", "translation": "to write", "correctAnswer": "escribes"},
+    {"sentence": "Yo _____ en el coro de la iglesia.", "verb": "cantar", "translation": "to sing", "correctAnswer": "canto"},
+    {"sentence": "Ellas _____ el almuerzo al mediodía.", "verb": "comer", "translation": "to eat", "correctAnswer": "comen"},
+    {"sentence": "Nosotros _____ la televisión después de la cena.", "verb": "ver", "translation": "to watch", "correctAnswer": "vemos"},
+    {"sentence": "Ella _____ la verdad siempre.", "verb": "decir", "translation": "to say", "correctAnswer": "dice"},
+    {"sentence": "Tú _____ una siesta en la tarde.", "verb": "tomar", "translation": "to take", "correctAnswer": "tomas"},
+    {"sentence": "Yo _____ mi cuarto los sábados.", "verb": "limpiar", "translation": "to clean", "correctAnswer": "limpio"},
+    {"sentence": "Él _____ la ciudad cada verano.", "verb": "visitar", "translation": "to visit", "correctAnswer": "visita"},
+    {"sentence": "Nosotros _____ al fútbol en el parque.", "verb": "jugar", "translation": "to play (a sport)", "correctAnswer": "jugamos"},
+    {"sentence": "Ella _____ la mesa para la cena.", "verb": "poner", "translation": "to set/put", "correctAnswer": "pone"},
+    {"sentence": "Tú _____ a tus abuelos los domingos.", "verb": "visitar", "translation": "to visit", "correctAnswer": "visitas"}
+]
